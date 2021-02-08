@@ -1,0 +1,324 @@
+*{  
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0,0);
+    margin: 0; 
+    padding: 0;
+
+}
+
+html,body{   
+        width: 100vw;
+        height: 100vh;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(255, 255, 255);
+        background-image: url(../Images/indexBackGround.png);
+        background-size: 100vw;
+        font-size: 28px;
+    }
+
+
+/* --------------------------------NAVIGATION BAR TOP ------------------------------------     */
+    nav{display: flex;
+        width: 100vw;
+        height: 12vh;
+        padding: 4vh 13vw;
+        justify-content: space-evenly;}
+
+    .navigation{display: flex; flex-grow: 1; justify-content: flex-end}
+ /* -------------------------------------------------------------------------------------- */
+
+.highlighted{
+    color: rgb(101,175,191);
+    font-weight: bolder;
+}
+
+.heroContainer{
+    display: flex;
+    width: 100vw;
+    height: 99vh;
+    justify-content: center;
+    margin-top: -12vh;
+    }
+
+.heroMainSize{
+    display: flex;
+    /* find Viewports and min width option */
+    width: 1052px;
+    height: 347px;
+    justify-content: center;
+    align-self: center;}
+
+.arrowDown{
+    position: absolute;
+    right: 50vw;
+    top:95vh;
+    z-index: 2;}
+
+.arrowDown2{
+    position: absolute;
+    right: 50vw;
+    top:190vh;
+    z-index: 2;}
+
+.rightAlignment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;}
+    
+.centerAlignment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;}
+/* ------------------------------------ Introduction section -------------------------------------------- */
+
+.flex-container{
+    display: flex;
+    width: 100vw;
+    height: 99vh; 
+    }
+
+.column{
+    flex-direction: column; 
+}
+
+.caseCard{
+    background-color: rgb(39, 54, 64,0.7);
+    display: flex;
+    width: 100vw;
+    height: 82vh; }
+
+.caseCardColor{
+    background-color: rgb(39, 54, 64,0.7);
+}
+   
+
+.flex-container > div { 
+  margin: 10px;
+  padding: 4vh 6vw;
+}
+
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+/* ---------------------------- Case Studies ------------------------------------------------------------------------------------------------------------------ */
+.flex-viewPort{
+    display: flex;
+    height: 98vh;
+    width: 100vw;}
+
+.flex-cardContainer{
+    display: flex;
+    height: 82vh;
+    width: 100vw;
+    background-color: rgb(39,54,64,.6);
+    justify-content: flex-start;
+    padding: 17vh 11vw;}
+
+.flex-columnsContainer_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+.caseRoll{
+    font-family: Agency FB, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    color: rgb(149,152,156);
+    margin-bottom: 50px ;}
+
+.caseDescription{
+    font-family: Agency FB, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    margin-bottom: 4vh;}
+
+.openCaseButton{
+    font-family: Agency FB, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;   
+    color: rgb(101,175,191);
+    border: solid 5px;
+    padding: 10px 56px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;}
+
+.flexCenter{
+    align-self: center;
+}
+
+.flexEnd{
+    align-self: flex-end;
+}
+/* ---------------------------- Case Study -- Sparky Buddy ---------------------------------------- */
+ 
+.heroSparkySize{
+    display: flex; 
+    width: 50vw;
+    justify-content: center;
+    align-self: center;}
+
+.logoSparkySize{
+    display: flex;
+    width: 20vw;}
+
+.iconsSparkySize{
+    display: flex;
+    width: 28vw;}
+
+.flex-columnsContainer_2_sparky{
+    display: flex;
+    align-self: center;
+    margin-left: 4vw;}
+/* ---------------------------- Case Study -- Electoral Commission SA ---------------------------------------- */
+.heroElectoralSize{
+    display: flex;
+    width: 65vw;}
+
+.electoralFont{
+    font-family: Agency FB, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.iconsElectoralSize{
+    display: flex;
+    width: 28vw;}
+
+.flex-columnsContainer_2_electoral{
+    display: flex;
+    align-self: center;
+    margin-left: -4vw;}
+
+
+/* ---------------------------- Case Study -- Tiny Tails Rescue ------------------------------------------------------------------------------------------------------ */
+.heroTinyTailsSize{
+    display: flex;
+    width: 50vw;}
+
+.logoTinyTailsSize{
+    display: flex;
+    width: 25vw;}
+
+.iconsTinyTailsSize{
+    display: flex;
+    width: 28vw;}
+
+.flex-columnsContainer_2_tinyTails{
+    display: flex;
+    align-self: center;
+    margin-left: 4vw;}
+
+
+
+/* -----------------------------    FOOTER   ------------------------------------------------------------------------------------------------ */
+.flex-viewPort-footer{
+    display: flex;
+    height: 35vh;
+    width: 100vw;
+    flex-direction: column;}
+
+.flex-row-footer-top{
+    display: flex;
+    height: 5vh;
+    width: 100vw;
+    }
+
+.flex-row-footer-down{
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;}
+
+.flex-row-contacts{
+    display: flex;
+    height: 5vh;
+    width: 78vw;   
+    align-self: center;
+    justify-content: space-between;
+    }
+
+.flex-row-SocialIcons{
+    display: flex;
+    height: 15vh;
+    width: 78vw;
+    align-self: center;
+    justify-content: space-between;   
+    }
+
+
+
+
+.footerFont{
+    font-family: Agency FB, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: normal;}
+
+/* ----------------------------------------------------------------------------------------------------------------------------- */
+
+
+.leyend{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+article:nth-of-type(3){
+    margin-top: 2%;
+    margin-right: 1%;
+    flex-wrap: wrap;
+    align-self: center;} 
+
+article:nth-of-type(2){
+    display: flex;
+    padding: 2% 2% 2% 2%;  
+    flex-wrap: wrap;
+    align-self: center;
+  
+} 
+
+section:nth-of-type(1) div:nth-of-type(1){
+    align-self: left;
+    margin-top: 20%;
+    padding: 0% 16% 0% ;   
+    flex-wrap: wrap; 
+    }
+
+section:nth-of-type(1) div:nth-of-type(2){
+    padding: 0% 10% 0% 14%;    
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(1) div:nth-of-type(3){
+    padding: 0% 25% 3% 17%;    
+    flex-wrap: wrap;
+}
+
+.mobile{
+    display: flex;
+    justify-items: center;
+    padding: 5%;
+}
+
+/* ------------------------------------------------- FOOTER NAVIGATION ---------------------------------------------- */
+
+
+@media only screen and (max-width:1450px){#resizeHero{width: 100%;height: 100%;}}
+@media only screen and (max-width:1118px){#resizeLogo{width: 80%;height: 80%;}}
+
+        /* -----------HIDDING NAVIGATION TOP BAR------------- */
+        @media screen and (max-width: 780px){nav{display: none;} .wide{display: none;}.leyend{font-size: 16px;}}
+
+
+footer{display: flex;margin: 10% 0% 5% 0%; width: auto; align-items: center; justify-content: space-around; font-size: 20px;} 
+.foot{align-self: flex-end;}
+
+
+
+        /* ---------------------HIDDING NAVIGATION LOW BAR------- */
+        @media screen and (min-width: 781px){footer{display:none;}.mobile{display: none;}}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
