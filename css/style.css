@@ -55,9 +55,27 @@ html,body{
     z-index: 2;}
 
 .arrowDown2{
+   position: absolute;
+   right: 50vw;
+   top: 194vh;
+   z-index: 2;}
+
+.arrowDown3{
     position: absolute;
     right: 50vw;
-    top:190vh;
+    top: 289vh;
+    z-index: 2;}
+
+.arrowDown4{
+    position: absolute;
+    right: 50vw;
+    top: 384vh;
+    z-index: 2;}
+
+.homeIcon{
+    position: absolute;
+    left: 48vw;
+    top: 485vh;
     z-index: 2;}
 
 .rightAlignment{
@@ -218,9 +236,9 @@ h4{
 .flex-viewPort-footer{
     display: flex;
     height: 35vh;
-    width: 100vw;
+    width: 100vw; border-top: 4px solid salmon;
     flex-direction: column;}
-
+    
 .flex-row-footer-top{
     display: flex;
     height: 5vh;

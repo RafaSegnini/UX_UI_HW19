@@ -9,7 +9,7 @@
 
 <body>
 <!---------------------------------------NAVIGATION BAR > 780px w------------------------------------ -->
-<nav>
+<nav id="topNav">
     <div>
         RESUME
     </div>
@@ -24,15 +24,15 @@
     </div>
 </nav>
 <!---------------------------------------------------------------------------------------------------->
-<div>
+<div >
     <div class="heroContainer">
         <img class="heroMainSize" src="Images/hero.png">
-        <img class="arrowDown" src="Images/arrowDown.png">
+        <img id="arrowHero" class="arrowDown" src="Images/arrowDown.png">
     </div>
 </div>
 <!------------------------------------------ Introduction ------------------------------------------------------------>
 
-<div class="flex-container column">
+<div id="topIntro" class="flex-container column">
     <div><img src="Images/whoAmI.png">
          <h4>I’m a user experience designer with technical background
           in electrical engineering, looking to make engineers
@@ -44,13 +44,14 @@
             sketching, UI design. Project Management, Reviewing. HTML, CSS,
             JS, Bootstrap, Github.
         </h4>
+        <img id="arrowIntro" class="arrowDown2" src="Images/arrowDown.png">
     </div>
 </div>
-<img class="arrowDown2" src="Images/arrowDown.png">
+
 
 
 <!---------------------------- Case Study SparkyBuddy------------------------------------------------------------------------------------------------------------------>
-<div class="flex-viewPort">
+<div id="topSparky" class="flex-viewPort">
 
     <div class="flex-cardContainer">
 
@@ -72,13 +73,13 @@
         <div class="flex-columnsContainer_2_sparky">
             <img class="heroSparkySize" src="Images/heroSparky.png">
         </div>
-
+        <img   id="arrowSparky" class="arrowDown3" src="Images/arrowDown.png">
     </div>     
 </div>
 
 <!----------------------------- Case Study -- Electoral Commission SA ------------------------------------------------------------------------------------------------>
 
-<div class="flex-viewPort">
+<div id="topElectoral" class="flex-viewPort">
 
     <div class="flex-cardContainer">
 
@@ -99,13 +100,13 @@
         <div class="flex-columnsContainer_2_electoral">
             <img class="heroElectoralSize" src="Images/heroElectoral.png">
         </div>
-
+        <img   id="arrowElectoral" class="arrowDown4" src="Images/arrowDown.png">
     </div>     
 </div>
 
 <!----------------------------- Case Study -- Tiny Tails ------------------------------------------------------------------------------------------------>
 
-<div class="flex-viewPort">     
+<div id="topTinyTails" class="flex-viewPort">     
 
     <div class="flex-cardContainer">
 
@@ -135,7 +136,7 @@
     
     <div class="flex-row-footer-top">
     </div>
-
+        <img id="home" class="homeIcon" src="Images/home.png">
     <div class="flex-row-footer-down">
 
         <div class="flex-row-contacts footerFont">
@@ -160,29 +161,6 @@
     </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="caseCard wide  column">
-    <div><img src="Images/sparky logo.png" id="resizeLogo"></div>
-    <div><img src="Images/iconsSparky.png" id="resizeLogo"></div>
-    <div class="leyend">A mobile app that gathers data from electricians on the field and keeps it in one place and backed up to the cloud. </div>
-</div>
-<div class="column caseCardColor">
-    <div></article> -->
-
-
-
-
-
 
 <!-- <div class="mobile">
     <article>
@@ -210,5 +188,6 @@
 </footer> -->
 
 <!---------------------------------------------------------------------------------------------------->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/index.js"></script>
 </body>
