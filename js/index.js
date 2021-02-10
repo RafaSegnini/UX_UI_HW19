@@ -1,18 +1,6 @@
 
 console.log("Your index.js file is loaded correctly!");
 
-// $(document).ready(function(){
-    // $("#trigger1").click(function()
-    // {
-      // $("#under1").hide(500).slideUp(500);      
-    // });
-  // });
-  //  $(document).ready(function(){
-    //  $("#trigger2").click(function(){
-      //  $("#under2").hide(1500).slideUp(2000);      
-    //  });
-  //  });
-
 $(document).ready(function (){
   $("#arrowHero").click(function (){
       $('html, body').animate({
